@@ -1,8 +1,21 @@
-# Neuigkeiten in Savepoint
+﻿# Neuigkeiten in Savepoint
 
 Hier steht bei jeder Version, was sich geändert hat. Die neueste Version steht oben.
 
 Gegliedert in **Neu** (neue Funktionen), **Verbessert** (bestehendes geht besser) und **Behoben** (Fehler korrigiert).
+
+## 1.1.0 – 19.10.2026
+
+### Neu
+- **Updates:** Beim Start schaut Savepoint, ob es eine neue Version gibt, und zeigt dann, was neu ist. Mit „Jetzt
+  aktualisieren“ lädt und installiert es die neue Version und startet neu; „Später“ fragt beim nächsten Start wieder.
+- Unter **Einstellungen → Updates** lässt sich das Nachfragen ausschalten; „Jetzt nach Updates suchen“ geht trotzdem.
+- Jedes Update ist **digital unterschrieben**. Savepoint installiert nur Updates, die wirklich von uns kommen.
+- Neue Seite **„Neuigkeiten“** mit allen Versionen. Nach einem Update zeigt Savepoint einmal, was neu ist.
+
+### Behoben
+- Beim Einrichten des automatischen Backups aus einer heruntergeladenen `Savepoint.exe` wurde der ganze Ordner, in dem
+  sie lag (z.B. Downloads), mit nach „Program Files“ kopiert. Jetzt nur noch Savepoint selbst.
 
 ## 1.0.0 – 19.10.2026
 
