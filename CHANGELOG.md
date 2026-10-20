@@ -4,6 +4,21 @@ Hier steht bei jeder Version, was sich geändert hat. Die neueste Version steht 
 
 Gegliedert in **Neu** (neue Funktionen), **Verbessert** (bestehendes geht besser) und **Behoben** (Fehler korrigiert).
 
+## 1.2.0 – 20.10.2026
+
+### Neu
+- **Zurück zur vorherigen Version:** Passt ein Update nicht, geht es unter **Einstellungen → Updates** mit einem Klick
+  zurück. Die zurückgenommene Version wird danach nicht mehr angeboten, erst die nächste.
+- Startet eine neue Version zweimal nicht richtig, fragt Savepoint von selbst, ob es zur vorherigen zurück soll.
+- **Problem melden:** Savepoint erstellt einen Fehlerbericht ohne Benutzernamen, Ordner- und Dateinamen. Du siehst ihn
+  vorher und entscheidest selbst: kopieren, als Datei speichern oder auf GitHub melden. Gesendet wird nie von selbst.
+
+### Behoben
+- Seite „Neuigkeiten“ und Update-Fenster: Der Text war nach dem Update auf 1.1.0 zu klein, und die Abschnitte „Neu“ und
+  „Behoben“ waren nicht mehr hervorgehoben.
+- Das Update-Fenster wartet jetzt, bis die Ordnerauswahl beim ersten Start geschlossen ist, statt sich darüber zu legen.
+- Im Update-Fenster erscheint kein schwarzer Rahmen mehr um die Neuigkeiten.
+
 ## 1.1.0 – 19.10.2026
 
 ### Neu
