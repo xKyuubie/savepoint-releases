@@ -19,7 +19,10 @@ Deinstallieren: Windows-Einstellungen → Apps → Savepoint → Deinstallieren.
 
 ## Datenschutz
 
-- Savepoint sendet nichts ins Internet. Deine Backups bleiben am Speicherort, den du wählst.
+- Savepoint fragt beim Start bei GitHub nach einer neuen Version (in den Einstellungen abschaltbar) und sendet sonst
+  nichts ins Internet. Deine Backups bleiben am Speicherort, den du wählst.
+- Ein Fehlerbericht wird nie von selbst gesendet. Du siehst ihn vorher; Benutzernamen, Ordner- und Dateinamen sind
+  daraus entfernt.
 - Passwörter, Logins und Cookies werden **nie** gesichert.
 
 ## Voraussetzungen
@@ -28,5 +31,7 @@ Windows 10 (ab Version 2004) oder Windows 11, 64 Bit. Sonst nichts.
 
 ## Problem gefunden?
 
-Unter **Issues** → **New issue** beschreiben, was passiert ist und welche Version du hast
-(Savepoint → Einstellungen → Über Savepoint).
+Am einfachsten in Savepoint unter **Einstellungen → Updates → „Problem melden …“**: Savepoint erstellt einen
+Fehlerbericht ohne Persönliches und öffnet hier eine neue Meldung, in die du ihn einfügst.
+
+Passt ein Update nicht, geht es unter **Einstellungen → Updates** zurück zur vorherigen Version.
