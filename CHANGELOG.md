@@ -4,6 +4,17 @@ Hier steht bei jeder Version, was sich geändert hat. Die neueste Version steht 
 
 Gegliedert in **Neu** (neue Funktionen), **Verbessert** (bestehendes geht besser) und **Behoben** (Fehler korrigiert).
 
+## 1.3.0 – 15.11.2026
+
+### Neu
+- **Aufgabenplanung:** Savepoint sichert die Aufgaben, die du selbst in der Windows-Aufgabenplanung angelegt hast, und
+  legt sie auf dem neuen PC wieder an, angepasst an dein neues Benutzerkonto. Aufgaben von Windows, von Programmen und
+  von Savepoint selbst bleiben absichtlich weg: Die kommen beim Installieren der Programme von selbst wieder.
+- Beim Wiederherstellen werden vorhandene Aufgaben nie überschrieben. Fehlt das Programm einer Aufgabe, wird sie
+  deaktiviert angelegt. Aufgaben „mit höchsten Privilegien“ legt Savepoint nach einer Windows-Abfrage an.
+- Aufgaben, die „unabhängig von der Anmeldung“ laufen, kommen als „nur wenn angemeldet“ zurück, weil Savepoint keine
+  Passwörter sichert. Das Passwort trägst du danach selbst in der Aufgabenplanung ein.
+
 ## 1.2.0 – 20.10.2026
 
 ### Neu
