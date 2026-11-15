@@ -4,6 +4,12 @@ Hier steht bei jeder Version, was sich geändert hat. Die neueste Version steht 
 
 Gegliedert in **Neu** (neue Funktionen), **Verbessert** (bestehendes geht besser) und **Behoben** (Fehler korrigiert).
 
+## 1.3.1 – 15.11.2026
+
+### Verbessert
+- Übersicht: Der Hinweis zu einem automatischen Backup mit Warnungen oder Fehler lässt sich mit ✕ schliessen. Er kommt
+  erst bei einem neuen Lauf mit Problemen wieder. Ist das betroffene Backup gelöscht, verschwindet er von selbst.
+
 ## 1.3.0 – 15.11.2026
 
 ### Neu
